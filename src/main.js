@@ -11,7 +11,10 @@ import {
 import {
   faTrophy,
   faRss,
-  faCheck
+  faCheck,
+  faEnvelopeSquare,
+  faFileCode,
+  faPhoneAlt,
 } from '@fortawesome/free-solid-svg-icons'
 import {
   faGithub,
@@ -30,6 +33,8 @@ import {
   faGulp,
   faGrunt,
   faNpm,
+  faVuejs,
+  faWhatsapp,
 } from '@fortawesome/free-brands-svg-icons'
 import {
   FontAwesomeIcon
@@ -55,6 +60,11 @@ library.add(
   faNpm,
   faRss,
   faCheck,
+  faVuejs,
+  faWhatsapp,
+  faEnvelopeSquare,
+  faFileCode,
+  faPhoneAlt,
 )
 
 export default function (Vue, {
