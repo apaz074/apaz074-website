@@ -1,9 +1,9 @@
 <template>
   <section class="resume-section p-3 p-lg-5 d-flex align-items-center" id="skills">
     <div class="w-100">
-      <h2 class="mb-5">Skills</h2>
+      <h2 class="mb-5">Habilidades</h2>
 
-      <div class="subheading mb-3">Programming Languages &amp; Tools</div>
+      <div class="subheading mb-3">Lenguajes de Programación &amp; Herramientas</div>
       <ul class="list-inline dev-icons">
         <li class="list-inline-item">
           <font-awesome :icon="['fab', 'html5']"/>
@@ -14,12 +14,9 @@
         <li class="list-inline-item">
           <font-awesome :icon="['fab', 'js-square']"/>
         </li>
-        <li class="list-inline-item">
-          <font-awesome :icon="['fab', 'angular']"/>
-        </li>
-        <li class="list-inline-item">
-          <font-awesome :icon="['fab', 'react']"/>
-        </li>
+        <!--<li class="list-inline-item">
+          <font-awesome :icon="['fab', 'vuejs']"/>
+        </li>-->
         <li class="list-inline-item">
           <font-awesome :icon="['fab', 'node-js']"/>
         </li>
@@ -27,41 +24,26 @@
           <font-awesome :icon="['fab', 'sass']"/>
         </li>
         <li class="list-inline-item">
-          <font-awesome :icon="['fab', 'less']"/>
-        </li>
-        <li class="list-inline-item">
           <font-awesome :icon="['fab', 'wordpress']"/>
-        </li>
-        <li class="list-inline-item">
-          <font-awesome :icon="['fab', 'gulp']"/>
-        </li>
-        <li class="list-inline-item">
-          <font-awesome :icon="['fab', 'grunt']"/>
         </li>
         <li class="list-inline-item">
           <font-awesome :icon="['fab', 'npm']"/>
         </li>
       </ul>
 
-      <div class="subheading mb-3">Workflow</div>
+      <div class="subheading mb-3">Workflow &amp; Otros</div>
       <ul class="fa-ul mb-0">
         <li>
           <font-awesome class="fa-li" :icon="['fas', 'check']"/>Mobile-First, Responsive Design
         </li>
         <li>
-          <font-awesome class="fa-li" :icon="['fas', 'check']"/>Cross Browser Testing &amp; Debugging
+          <font-awesome class="fa-li" :icon="['fas', 'check']"/>Webpack
         </li>
         <li>
-          <font-awesome class="fa-li" :icon="['fas', 'check']"/>Cross Functional Teams
+          <font-awesome class="fa-li" :icon="['fas', 'check']"/>Motores de plantillas - Pug
         </li>
         <li>
-          <font-awesome class="fa-li" :icon="['fas', 'check']"/>Agile Development &amp; Scrum
-        </li>
-        <li>
-          <font-awesome class="fa-li" :icon="['fas', 'check']"/>Cutting edge JavaScript frameworks
-        </li>
-        <li>
-          <font-awesome class="fa-li" :icon="['fas', 'check']"/>Design principles and UX
+          <font-awesome class="fa-li" :icon="['fas', 'check']"/>Vue.js Framework - Vuepress
         </li>
       </ul>
     </div>

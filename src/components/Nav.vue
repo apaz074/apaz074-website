@@ -1,11 +1,11 @@
 <template>
-  <nav class="navbar navbar-expand-lg navbar-dark bg-primary fixed-top" id="sideNav">
-    <div v-on:click.prevent="$scrollTo('#about')" class="navbar-brand">
-      <span class="d-block d-lg-none">Loke Carlsson</span>
+  <nav class="navbar navbar-expand-lg navbar-dark bg-primary fixed-bottom" id="sideNav">
+    <div v-on:click.prevent="$scrollTo('#services')" class="navbar-brand">
+      <span class="d-block d-lg-none">&#60;apaz074/&#62;</span>
       <span class="d-none d-lg-block">
         <g-image
-          alt="Image of Loke"
-          src="../assets/images/profile.png"
+          alt="Logo de apaz074"
+          src="../assets/images/logo.png"
           class="img-fluid img-profile rounded-circle mx-auto mb-2"
         />
       </span>
@@ -14,24 +14,36 @@
     <div class="collapse navbar-collapse" id="navbarSupportedContent">
       <ul class="navbar-nav">
         <li class="nav-item">
-          <a class="nav-link" v-on:click.prevent="$scrollTo('#about')">About</a>
+          <a class="nav-link" v-on:click.prevent="$scrollTo('#services')">Servicios</a>
         </li>
         <li class="nav-item">
-          <a class="nav-link" v-on:click.prevent="$scrollTo('#experience')">Experience</a>
+          <a class="nav-link" v-on:click.prevent="$scrollTo('#experience')">Experiencia Laboral</a>
         </li>
         <li class="nav-item">
-          <a class="nav-link" v-on:click.prevent="$scrollTo('#education')">Education</a>
+          <a class="nav-link" v-on:click.prevent="$scrollTo('#projects')">Proyectos</a>
         </li>
         <li class="nav-item">
-          <a class="nav-link" v-on:click.prevent="$scrollTo('#skills')">Skills</a>
+          <a class="nav-link" v-on:click.prevent="$scrollTo('#skills')">Habilidades</a>
         </li>
-        <li class="nav-item">
+        <!--<li class="nav-item">
           <a class="nav-link" v-on:click.prevent="$scrollTo('#interests')">Interests</a>
         </li>
         <li class="nav-item">
           <a class="nav-link" v-on:click.prevent="$scrollTo('#awards')">Awards</a>
-        </li>
+        </li>-->
       </ul>
+    </div>
+
+    <div class="social-icons">
+      <!--<a href="mailto:info@apaz074.com" target="_blank" rel="noopener noreferrer">
+        <font-awesome :icon="['fab', 'envelope-square']"/>
+      </a>-->
+      <a href="https://wa.me/50689081606" target="_blank" rel="noopener noreferrer">
+        <font-awesome :icon="['fab', 'whatsapp']"/>
+      </a>
+      <a href="tel:+50689081606" target="_blank" rel="noopener noreferrer">
+        <font-awesome :icon="['fas', 'phone-alt']"/>
+      </a>
     </div>
   </nav>
 </template>
@@ -106,5 +118,35 @@
   #sideNav .navbar-collapse .navbar-nav .nav-item .nav-link {
     display: block;
   }
+}
+
+.social-icons a {
+  cursor: pointer;
+  display: inline-block;
+  height: 3.5rem;
+  width: 3.5rem;
+  background-color: var(--secondary);
+  color: #fff !important;
+  border-radius: 100%;
+  text-align: center;
+  font-size: 1.5rem;
+  line-height: 3.5rem;
+  margin-right: 1rem;
+
+  @media (max-width: 380px) {
+    margin-right: 0.5rem;
+  }
+
+  @media (max-width: 350px) {
+    margin-right: 0.2rem;
+  }
+}
+
+.social-icons a:last-child {
+  margin-right: 0;
+}
+
+.social-icons a:hover {
+  background-color: var(--primary);
 }
 </style>
