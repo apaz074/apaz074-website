@@ -3,8 +3,8 @@ module.exports = {
   siteDescription: "Desarrollo web con ingenio.",
   siteUrl: "https://apaz074.com",
   icon: "./src/favicon.ico",
-  plugins: [{
-      /*use: '@gridsome/plugin-google-analytics',
+  plugins: [/*{
+      use: '@gridsome/plugin-google-analytics',
       options: {
         id: 'UA-72659574-11'
       }
