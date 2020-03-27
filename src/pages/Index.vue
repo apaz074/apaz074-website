@@ -1,41 +1,33 @@
 <template>
   <Layout>
     <div class="container-fluid p-0">
-      <About/>
+      <Services/>
       <hr class="m-0">
       <Experience/>
       <hr class="m-0">
-      <Education/>
+      <Projects/>
       <hr class="m-0">
       <Skills/>
-      <hr class="m-0">
-      <Interests/>
-      <hr class="m-0">
-      <Awards/>
     </div>
   </Layout>
 </template>
 
 <script>
-import About from "../components/About";
+import Services from "../components/Services";
 import Experience from "../components/Experience";
-import Education from "../components/Education";
+import Projects from "../components/Projects";
 import Skills from "../components/Skills";
-import Interests from "../components/Interests";
-import Awards from "../components/Awards";
 
 export default {
   components: {
-    About,
+    Services,
     Experience,
-    Education,
-    Skills,
-    Interests,
-    Awards
+    Projects,
+    Skills
   },
   metaInfo: {
-    title: "Gridsome Starter Resume",
-    titleTemplate: "%s - Create your resume quick and easy!"
+    title: "&lt;apaz074/&gt;",
+    titleTemplate: "%s - Desarrollo web con ingenio"
   }
 };
 </script>
@@ -44,8 +36,8 @@ export default {
 .subheading {
   text-transform: uppercase;
   font-weight: 500;
-  font-family: "Saira Extra Condensed", -apple-system, BlinkMacSystemFont,
-    "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif, "Apple Color Emoji",
+  font-family: Roboto, "Saira Extra Condensed", -apple-system, BlinkMacSystemFont,
+    "Segoe UI", "Helvetica Neue", Arial, sans-serif, "Apple Color Emoji",
     "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
   font-size: 1.5rem;
 }
