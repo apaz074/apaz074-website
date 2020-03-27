@@ -1,4 +1,4 @@
-# <apaz074/> - Desarrollo web con ingenio
+# apaz074 - Desarrollo web con ingenio
 
 Este sitio esta construido a partir de la plantilla Gridsome starter resume. La siguiente información es de la plantilla original.
 
