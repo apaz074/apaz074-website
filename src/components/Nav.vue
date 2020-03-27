@@ -1,7 +1,8 @@
 <template>
   <nav class="navbar navbar-expand-lg navbar-dark bg-primary fixed-bottom" id="sideNav">
-    <div v-on:click.prevent="$scrollTo('#services')" class="navbar-brand">
-      <span class="d-block d-lg-none">&#60;apaz074/&#62;</span>
+    <div v-on:click.prevent="$scrollTo('#about')" class="navbar-brand">
+      <span class="d-block d-lg-none">&lt;apaz074/&gt;</span>
+      <g-link to="/">
       <span class="d-none d-lg-block">
         <g-image
           alt="Logo de apaz074"
@@ -9,6 +10,7 @@
           class="img-fluid img-profile rounded-circle mx-auto mb-2"
         />
       </span>
+     </g-link>
     </div>
 
     <div class="collapse navbar-collapse" id="navbarSupportedContent">
@@ -25,21 +27,15 @@
         <li class="nav-item">
           <a class="nav-link" v-on:click.prevent="$scrollTo('#skills')">Habilidades</a>
         </li>
-        <!--<li class="nav-item">
-          <a class="nav-link" v-on:click.prevent="$scrollTo('#interests')">Interests</a>
-        </li>
-        <li class="nav-item">
-          <a class="nav-link" v-on:click.prevent="$scrollTo('#awards')">Awards</a>
-        </li>-->
       </ul>
     </div>
 
-    <div class="social-icons">
-      <!--<a href="mailto:info@apaz074.com" target="_blank" rel="noopener noreferrer">
-        <font-awesome :icon="['fab', 'envelope-square']"/>
-      </a>-->
+    <div class="nav-icons">    
       <a href="https://wa.me/50689081606" target="_blank" rel="noopener noreferrer">
         <font-awesome :icon="['fab', 'whatsapp']"/>
+      </a>
+      <a href="mailto:info@apaz074.com" target="_blank" rel="noopener noreferrer">
+        <font-awesome :icon="['fas', 'envelope']"/>
       </a>
       <a href="tel:+50689081606" target="_blank" rel="noopener noreferrer">
         <font-awesome :icon="['fas', 'phone-alt']"/>
@@ -120,13 +116,13 @@
   }
 }
 
-.social-icons a {
+.nav-icons a {
   cursor: pointer;
   display: inline-block;
   height: 3.5rem;
   width: 3.5rem;
-  background-color: var(--secondary);
-  color: #fff !important;
+  background-color: #fff;
+  color: var(--primary) !important;
   border-radius: 100%;
   text-align: center;
   font-size: 1.5rem;
@@ -142,11 +138,12 @@
   }
 }
 
-.social-icons a:last-child {
+.nav-icons a:last-child {
   margin-right: 0;
 }
 
-.social-icons a:hover {
+.nav-icons a:hover {
+  color: #fff !important;
   background-color: var(--primary);
 }
 </style>

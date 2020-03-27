@@ -2,7 +2,11 @@ module.exports = {
   siteName: "<apaz074/>",
   siteDescription: "Desarrollo web con ingenio.",
   siteUrl: "https://apaz074.com",
-  icon: "./src/favicon.ico",
+  remark: {
+    plugins: [
+      '@gridsome/remark-prismjs'
+    ]
+  },
   plugins: [/*{
       use: '@gridsome/plugin-google-analytics',
       options: {

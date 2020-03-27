@@ -3,35 +3,25 @@ import DefaultLayout from '~/layouts/Default.vue'
 import VueScrollTo from 'vue-scrollto'
 import BootstrapVue from 'bootstrap-vue'
 import './assets/styles/main.scss'
+import 'prismjs/themes/prism-tomorrow.css'
 
 import {
   library
 } from '@fortawesome/fontawesome-svg-core'
 
 import {
-  faTrophy,
-  faRss,
   faCheck,
-  faEnvelopeSquare,
   faFileCode,
   faPhoneAlt,
+  faEnvelope
 } from '@fortawesome/free-solid-svg-icons'
 import {
-  faGithub,
-  faTwitter,
-  faFacebook,
-  faLinkedin,
   faHtml5,
   faJsSquare,
   faCss3Alt,
-  faAngular,
-  faReact,
   faNodeJs,
   faSass,
-  faLess,
   faWordpress,
-  faGulp,
-  faGrunt,
   faNpm,
   faVuejs,
   faWhatsapp,
@@ -41,30 +31,19 @@ import {
 } from '@fortawesome/vue-fontawesome'
 
 library.add(
-  faGithub,
-  faTwitter,
-  faFacebook,
-  faLinkedin,
-  faTrophy,
   faHtml5,
   faCss3Alt,
   faJsSquare,
-  faAngular,
-  faReact,
   faNodeJs,
   faSass,
-  faLess,
   faWordpress,
-  faGulp,
-  faGrunt,
   faNpm,
-  faRss,
   faCheck,
   faVuejs,
   faWhatsapp,
-  faEnvelopeSquare,
   faFileCode,
   faPhoneAlt,
+  faEnvelope
 )
 
 export default function (Vue, {
@@ -78,10 +57,6 @@ export default function (Vue, {
 
   head.link.push({
     rel: 'stylesheet',
-    href: 'https://fonts.googleapis.com/css?family=Saira+Extra+Condensed:500,700'
-  })
-  head.link.push({
-    rel: 'stylesheet',
-    href: 'https://fonts.googleapis.com/css?family=Muli:400,400i,800,800i'
+    href: 'https://fonts.googleapis.com/css?family=Roboto:400,400i,500,700,800,800i'
   })
 }

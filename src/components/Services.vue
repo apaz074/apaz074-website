@@ -2,8 +2,8 @@
   <section class="resume-section p-3 p-lg-5 d-flex align-items-center" id="services">
     <div class="w-100">
       <h1 class="mb-0 lowercase">
-        <span>&#60;apaz</span>
-        <span class="text-primary">074/&#62;</span>
+        <span>&lt;apaz</span>
+        <span class="text-primary">074/&gt;</span>
       </h1>
       <div class="subheading mb-2">Desarrollo web con ingenio</div>
       <div class="subheading mb-5">

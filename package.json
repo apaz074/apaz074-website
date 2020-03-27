@@ -1,5 +1,5 @@
 {
-  "name": "gridsome-starter-resume",
+  "name": "apaz-website-gridsome",
   "scripts": {
     "build": "gridsome build",
     "dev": "gridsome develop",
@@ -12,6 +12,7 @@
     "@fortawesome/vue-fontawesome": "0.1.8",
     "@gridsome/plugin-google-analytics": "^0.1.0",
     "@gridsome/plugin-sitemap": "^0.1.1",
+    "@gridsome/remark-prismjs": "^0.3.0",
     "@gridsome/source-filesystem": "^0.3.0",
     "@gridsome/transformer-remark": "^0.5.0",
     "bootstrap": "^4.3.1",

@@ -26,7 +26,7 @@ export default {
     Skills
   },
   metaInfo: {
-    title: "&lt;apaz074/&gt;",
+    title: "<apaz074/>",
     titleTemplate: "%s - Desarrollo web con ingenio"
   }
 };
@@ -36,7 +36,7 @@ export default {
 .subheading {
   text-transform: uppercase;
   font-weight: 500;
-  font-family: Roboto, "Saira Extra Condensed", -apple-system, BlinkMacSystemFont,
+  font-family: Roboto, -apple-system, BlinkMacSystemFont,
     "Segoe UI", "Helvetica Neue", Arial, sans-serif, "Apple Color Emoji",
     "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
   font-size: 1.5rem;
